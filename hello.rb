@@ -15,16 +15,16 @@ target = rand(100) + 1
 
 #track the number of guesses the player has made
 num_guesses = 0
-
+guesses_left =10 
 #track whether the player has guessed correctly
 guessed_it = false
 
-until num_guesses == 10 ||  guessed_it 
-puts "You've got #{10 - num_guesses} guesses left"
+until num_guesses == guesses_left ||  guessed_it 
+puts "You've got #{guesses_left - num_guesses}*"*" guesses left"
 print "Make a guess: "
 guess = gets.to_i
 
-num_guesses += 1
+num_guesses +=1
 
 #compare the guess to the targets
 #print the appropriate message
