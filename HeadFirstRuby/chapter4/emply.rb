@@ -13,9 +13,9 @@ class Employee
     end
     @salary = salary
   end
-  def initialize
-    @name = "Anonymous"
-    @salary = 0.0
+  def initialize(name,salary)
+    @name = name
+    @salary = salary
   end
   
   def print_pay_stub
@@ -26,7 +26,6 @@ class Employee
   end
 end
 
-amy = Employee.new
-#amy.name= "Amy Blake"
-#amy.salary = 50000
-amy.print_pay_stub
+charlotte = Employee.new("Charlotte Lucy", 30000)
+
+charlotte.print_pay_stub
