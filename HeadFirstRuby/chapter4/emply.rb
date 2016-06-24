@@ -14,17 +14,19 @@ class Employee
     @salary = salary
   end
   def initialize(name="Anonymous",salary=0.0)
-    @name = name
-    @salary = salary
+    self.name = name
+    self.salary = salary
   end
   
   def print_pay_stub
-    puts "Name: #{@name}"
-    pay_for_period = (@salary/365.0)*14
+    puts "Name: #{self.name}"
+    pay_for_period = (self.salary/365.0)*14
     formatted_pay = format("%.2f",pay_for_period)
     puts "pay this period: $#{formatted_pay}"
   end
 end
+
+
 
 charlotte = Employee.new("Charlotte Lucy", 30000).print_pay_stub
 
