@@ -8,3 +8,4 @@ puts prices[0]
 
 puts prices[2]
 puts prices[1]
+prices.pop
