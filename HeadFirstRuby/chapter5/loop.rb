@@ -11,3 +11,7 @@ while index < prices.length
   puts prices[index]
   index +=1
 end
+
+puts prices[prices.length-1]
+
+
