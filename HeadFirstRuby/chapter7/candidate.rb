@@ -1,7 +1,7 @@
 class Candidate
   attr_accessor :name,:age, :occupation, :hobby, :birthplace
 
-  def initialize(name,age: nil, occupation: nil, hobby: nil, birthplace: "Sleepy Creek")
+  def initialize(name,age:, occupation:, hobby: nil, birthplace: "Sleepy Creek")
     self.name = name
     self.age = age
     self.occupation = occupation
@@ -15,7 +15,7 @@ candidate = Candidate.new("Wesley Snipes",
                           age: 50, occupation:"Programmer",hobby:"Coding",birthplace:"Daadab")
 cad = Candidate.new("Amy Ngunt",age: 32, occupation: "Engineer")
 p candidate
-p Candidate.new("carl")
+
 
 p cad
 
