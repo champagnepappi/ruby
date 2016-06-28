@@ -12,6 +12,6 @@ class Candidate
 end
 
 candidate = Candidate.new("Wesley Snipes",
-                          {:age =>50, :occupation =>"Programmer",:hobby =>"Coding",:birthplace =>"Daadab"})
+                          :age =>50, :occupation =>"Programmer",:hobby =>"Coding",:birthplace =>"Daadab")
 p candidate
 
