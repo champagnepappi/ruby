@@ -2,26 +2,9 @@ class CelestialBody
   attr_accessor :type , :name
 end
 
-#create first CelestialBody
-altair= CelestialBody.new
-altair.name = 'Altair'
-altair.type = 'star'
+default_body = CelestialBody.new
+default_body.type = 'planet'
+bodies = Hash.new(default_body)
 
-#get reference to a second Celestial body
-polaris = CelestialBody.new
-polaris.name = 'Polaris'
-polaris.type = 'star'
-
-
-vega = CelestialBody.new
-vega.name = 'Vega'
-vega.type = 'star'
-
-puts altair.name, polaris.name, vega.name
-
-puts altair.object_id
-puts polaris.object_id
-puts vega.object_id
-
-puts altair.inspect, polaris.inspect
-puts vega.inspect
+bodies['Mars'].name = 'Mars'
+p bodies['Mars']
