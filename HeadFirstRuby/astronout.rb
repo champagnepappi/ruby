@@ -22,3 +22,6 @@ puts altair.name, polaris.name, vega.name
 puts altair.object_id
 puts polaris.object_id
 puts vega.object_id
+
+puts altair.inspect, polaris.inspect
+puts vega.inspect
