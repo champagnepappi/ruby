@@ -22,11 +22,13 @@ class SmallOven
   end
 end
 
-dinner = ['turkey','casserole','pie']
+dinner = ['turkey',nil,'pie']
 oven = SmallOven.new
 oven.turn_on
-  oven.contents = nil
+dinner.each do |item|
+  oven.contents = item
   puts "Serving #{oven.bake}."
+end
 
 
 
