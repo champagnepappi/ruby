@@ -23,3 +23,7 @@ post('/movies/create') do
   redirect '/movies/new'
 
 end
+
+get('/movies/:id') do
+  "Received a request for movie ID: #{params['id']}"
+end
