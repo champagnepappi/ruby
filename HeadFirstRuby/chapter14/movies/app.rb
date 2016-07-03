@@ -25,5 +25,7 @@ post('/movies/create') do
 end
 
 get('/movies/:id') do
-  "Received a request for movie ID: #{params['id']}"
+  id = params['id'].to_i #convert the id parameter from string to int
+  @movie = store.find(id)#use id to load movie from store
+  erb :show
 end
