@@ -7,6 +7,12 @@ class MovieStore
     @store = YAML::Store.new(file_name)
   end
 
+  def find(id)#take an id to use as key
+    @store.transaction do
+      @store[id]
+    end
+  end
+
   def all#retrieves all movies from store
     @store.transaction do
       @store.roots.map { |id| @store[id] }#create an array with values for each key
