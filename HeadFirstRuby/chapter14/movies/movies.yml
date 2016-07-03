@@ -1,0 +1,26 @@
+---
+1: !ruby/object:Movie
+  title: Superman vs Batman
+  director: Walker
+  year: '2016'
+  id: 1
+2: !ruby/object:Movie
+  title: Legends
+  director: clerk
+  year: '2012'
+  id: 2
+3: !ruby/object:Movie
+  title: Angry Birds
+  director: Champagne
+  year: '2016'
+  id: 3
+4: !ruby/object:Movie
+  title: Merlin
+  director: Mogana
+  year: '2010'
+  id: 4
+5: !ruby/object:Movie
+  title: Magic Mike
+  director: Tatum
+  year: '2016'
+  id: 5
