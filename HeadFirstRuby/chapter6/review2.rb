@@ -1,6 +1,16 @@
 lines = []
-review_file = File.open("reviews.txt")
-lines = review_file.readlines
+#read file contents
+File.open("reviews.txt") do |review_file|
+  lines = review_file.readlines
+end
 
-review_file.close
-puts lines
+relevant_lines = []
+
+#process each line from the file
+lines.each do |line|
+  if line.include?("Truncated")
+    relevant_lines << line #add current line to array of reviews
+  end
+end
+
+puts relevant_lines
