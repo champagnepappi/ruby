@@ -1,3 +1,12 @@
+#method to find adjectives within each review
+def find_adjective(string)
+  #break string into an array of words
+  words = string.split(" ")
+  #find the index of the word 'is'
+  index = words.find_index("is")
+  words[index + 1] #return word following is
+end
+
 lines = []
 #read file contents
 File.open("reviews.txt") do |review_file|
