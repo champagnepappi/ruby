@@ -1,10 +1,8 @@
 #method to find adjectives within each review
-def find_adjective(string)
-  #break string into an array of words
-  words = string.split(" ")
-  #find the index of the word 'is'
+def find_adjective(string)  #break string into an array of words
+  words = string.split(" ") #find the index of the word 'is'
   index = words.find_index("is")
-  words[index + 1] #return word following is
+  words=[index + 1]  #return word following is
 end
 
 lines = []
@@ -13,13 +11,15 @@ File.open("reviews.txt") do |review_file|
   lines = review_file.readlines
 end
 
-relevant_lines = []
+#find lines that include movie name
+relevant_lines = lines.find_all {|line| line.include?("Truncated")}
+#exclude reviewer bylines
+reviews = relevant_lines.reject {|line| line.include?("--")}
 
-#process each line from the file
-lines.each do |line|
-  if line.include?("Truncated")
-    relevant_lines << line #add current line to array of reviews
-  end
+adjectives = reviews.map do |review|
+  adjective = find_adjective(review)#find the adjective
+  "'#{adjective.capitalize}'"#return adjective, capitalized and surrounded by quotes
 end
 
-puts relevant_lines
+puts "The critics agree, Truncated is:"
+puts adjectives
