@@ -1,7 +1,7 @@
 def find_adjective(string)
   words = string.split(" ")
   index = words.find_index("is")
-  words[index + 1]
+  words[index+1]
 end
 
 lines = []
