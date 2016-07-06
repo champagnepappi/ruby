@@ -1,6 +1,6 @@
 my_name = 'Santos'
 my_age = 35
-my_height =74
+my_height =74*2.5
 my_weight = 78
 my_eyes = 'Green'
 my_teeth = 'White'
