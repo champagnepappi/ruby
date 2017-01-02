@@ -15,3 +15,6 @@ class TheThing
   end
 
 end
+
+a = TheThing.new
+b = TheThing.new
