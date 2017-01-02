@@ -1,11 +1,11 @@
 class TheThing
   attr_reader :number
 
-  def initialize()
+  def initialize
     @number = 0
   end
 
-  def some_function()
+  def some_function
     puts "i get called"
   end
 
@@ -17,4 +17,7 @@ class TheThing
 end
 
 a = TheThing.new
+a.some_function
+
 b = TheThing.new
+b.some_function
