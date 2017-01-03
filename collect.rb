@@ -1,6 +1,6 @@
 a = [1,2,3,4,6]
-b = Array.new
+# b = Array.new
 
-b = a.collect
+b = a.collect {|x| 10*x}
 
-print b
+puts b
