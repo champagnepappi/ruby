@@ -5,4 +5,9 @@ class Person
   def initialize(name)
     @name = name
   end
+
+  #print the person's name to the screen
+  def print_name
+    puts "Person called #{@name}"
+  end
 end
