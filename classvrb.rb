@@ -11,3 +11,8 @@ class Square
    @@number_of_squares
  end
 end
+
+a = Square.new
+b = Square.new
+
+puts Square.count
