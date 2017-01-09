@@ -9,5 +9,7 @@ class ParentClass
 end
 
 class ChildClass < ParentClass
-
+ def method2
+   puts "Hello from method2 in child class"
+ end
 end
