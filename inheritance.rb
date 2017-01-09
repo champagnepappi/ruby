@@ -13,3 +13,7 @@ class ChildClass < ParentClass
    puts "Hello from method2 in child class"
  end
 end
+
+a = ChildClass.new
+a.method1
+a.method2
