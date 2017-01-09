@@ -7,3 +7,6 @@ class Person
     return @name
   end
 end
+
+class Doctor < Person
+end
