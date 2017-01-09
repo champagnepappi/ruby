@@ -9,4 +9,7 @@ class Person
 end
 
 class Doctor < Person
+  def name
+    "Dr. " + super
+  end
 end
