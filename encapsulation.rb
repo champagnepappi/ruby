@@ -21,3 +21,6 @@ class Person
     @last_name = name
   end
 end
+ 
+a = Person.new("Kevin Santos")
+puts a.name
