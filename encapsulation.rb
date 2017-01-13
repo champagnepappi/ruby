@@ -7,6 +7,7 @@ class Person
     @first_name + ' ' + @last_name
   end
 
+  private
   def set_name(name)
     first_name, last_name = name.split(/\s+/)
     set_first_name(first_name)
@@ -23,4 +24,6 @@ class Person
 end
  
 a = Person.new("Kevin Santos")
+a.set_last_name("Genius")
 puts a.name
+
