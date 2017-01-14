@@ -1,0 +1,13 @@
+class Person
+  def initialize(age)
+    @age = age
+  end
+
+  def age
+    @age
+  end
+  
+  def age_difference_with(other_person)
+    (self.age - other_person.age).abs
+  end
+end
