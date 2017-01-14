@@ -10,4 +10,6 @@ class Person
   def age_difference_with(other_person)
     (self.age - other_person.age).abs
   end
+
+    protected :age
 end
