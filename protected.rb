@@ -13,3 +13,9 @@ class Person
 
     protected :age
 end
+
+dave = Person.new(34)
+sharon = Person.new(25)
+
+puts dave.age_difference_with(sharon)
+puts dave.age
