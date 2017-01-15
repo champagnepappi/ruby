@@ -5,3 +5,9 @@ class Animal
     @name = name
   end
 end
+
+class Cat < Animal
+  def talk
+    "Meaow"
+  end
+end
