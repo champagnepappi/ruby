@@ -11,3 +11,9 @@ class Cat < Animal
     "Meaow"
   end
 end
+
+class Dog < Animal
+  def talk
+    "Woof"
+  end
+end
