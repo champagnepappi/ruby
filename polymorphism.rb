@@ -17,3 +17,6 @@ class Dog < Animal
     "Woof"
   end
 end
+
+animals = [Cat.new("Flossie"), Dog.new("Clive"), Cat.new("Rex")]
+
