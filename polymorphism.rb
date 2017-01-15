@@ -19,4 +19,6 @@ class Dog < Animal
 end
 
 animals = [Cat.new("Flossie"), Dog.new("Clive"), Cat.new("Rex")]
-
+animals.each do |animal|
+  puts animal.talk
+end
