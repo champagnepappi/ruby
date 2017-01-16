@@ -13,3 +13,5 @@ class Drawing
   end
 
 end
+
+a = Drawing.give_me_a_circle
