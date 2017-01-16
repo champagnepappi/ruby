@@ -6,4 +6,10 @@ class Drawing
   class Line
   end
 
+  class Circle
+    def what_am_i
+      "this is a circle"
+    end
+  end
+
 end
