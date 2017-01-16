@@ -16,3 +16,5 @@ end
 
 a = Drawing.give_me_a_circle
 puts a.what_am_i
+
+a = Drawing::Circle.new
