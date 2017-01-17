@@ -6,3 +6,7 @@ class OtherPlanet
     2*Pi*radius
   end
 end
+
+puts OtherPlanet.circumference_of_circle(10)
+puts OtherPlanet::Pi
+puts Pi
