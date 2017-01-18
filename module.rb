@@ -4,8 +4,11 @@ module NumberStuff
   end
 end
 
-module LetterStaff
+module LetterStuff
  def self.random 
    (rand(26) + 65).chr
  end
 end
+
+puts NumberStuff.random
+puts LetterStuff.random
