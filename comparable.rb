@@ -13,3 +13,7 @@ class Song
   end
 
 end
+
+a = Song.new('Rock around the clock', 143)
+b = Song.new('Bohemain Rapsody', 544)
+c = Song.new('Minute Waitz', 60)
