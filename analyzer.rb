@@ -19,9 +19,9 @@ puts "What do you want to do? 1) Multiply 2) Divide 3)Subtract 4)Remainder"
 prompt = gets.chomp.to_i
 
 puts "Enter in first number"
-first_num = gets.chomp
+first_num = gets.chomp.to_i
 puts "Enter your second number"
-second_num = gets.chomp
+second_num = gets.chomp.to_i
 
 
 if prompt == 1
