@@ -4,7 +4,7 @@ require 'pp'
 #use user class i defined
 require_relative 'user'
 
-user = User.new 'santos.kev@gmail.com', 'Santos'
+user = User.new 'darkraven@gmail.com', 'raven'
 
 pp user
 user.save
