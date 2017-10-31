@@ -18,5 +18,6 @@ class User
 
   def self.permissions_from_template
     file = File.read 'user_permissions_template.json'
+    JSON.load(file, nil, symbolize_names: true)
   end
 end
