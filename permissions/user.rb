@@ -15,4 +15,8 @@ class User
       file.puts self_json
     end
   end
+
+  def self.permissions_from_template
+    file = File.read 'user_permissions_template.json'
+  end
 end
