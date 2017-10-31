@@ -14,3 +14,8 @@ def mod(first_num, second_num)
   first_num % second_num
 end
 
+puts "Please enter your first number"
+first_num = gets.chomp
+puts "Please enter your second number"
+second_num = gets.chomp
+
