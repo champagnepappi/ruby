@@ -1,6 +1,9 @@
 dial_book = {
   "newyork" => "212",
-  "newbunswick"=> "732"
+  "newbunswick"=> "732",
+  "eightown" => "412",
+  "kibra"=> "633",
+  "ktown" => "435"
 }
 
 #method to display city names
