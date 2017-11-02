@@ -30,7 +30,7 @@ loop do
   prompt = gets.chomp
 
   if dial_book.include?(prompt)
-    puts "Valid selection"
+    puts "The area code for #{prompt} is #{get_area_code(dial_book, prompt)}"
   else
     puts "Invalid selection !!!"
   end
