@@ -10,6 +10,10 @@ dial_book = {
 def get_city_names(somehash)
   somehash.each { |k,v| puts  k }
 end
+
+def get_area_code(somehash,key)
+  somehash[key]
+end
  #method to get area code, dialbook and city name 
 loop do
   puts "Do you want to lookup a city name?(Y/N)"
