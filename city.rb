@@ -19,5 +19,17 @@ loop do
   end
 
   puts "which city do you want the area code for?"
+  
+
+  get_city_names(dial_book)
+  puts "Enter your selection"
   prompt = gets.chomp
+
+  if dial_book.include?(prompt)
+    puts "Valid selection"
+  else
+    puts "Invalid selection !!!"
+  end
 end
+
+  
