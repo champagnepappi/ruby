@@ -7,3 +7,5 @@ def check_upcase(string)
     puts "String is not in neither upcase or uppercase"
   end
 end
+
+check_upcase("SAntos")
