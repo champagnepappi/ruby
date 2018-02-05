@@ -13,3 +13,6 @@ end
 
 a = Gear.new(52,11)
 b = Gear.new(30, 21)
+
+puts a.ratio
+puts b.ratio
