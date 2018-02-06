@@ -1,3 +1,7 @@
 print "Hello. Please enter a celcius value: "
 celcius = gets
-farenheight = (celcius.to_i * 9/5) + 32
+fahrenheit = (celcius.to_i * 9/5) + 32
+
+print "The farehnheit equivalent is "
+print fahrenheit
+print "."
