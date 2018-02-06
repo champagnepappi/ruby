@@ -6,7 +6,7 @@ class Account
 
   def login
     puts "Input your password: "
-    input = gets
+    input = gets.chomp
     if input == @password
       puts "Welcome #{@name}"
     else
@@ -14,3 +14,6 @@ class Account
     end
   end
 end
+
+acc = Account.new("Kevin","password")
+acc.login
