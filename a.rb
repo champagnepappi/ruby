@@ -1,2 +1,3 @@
-puts "Hello from a.rb"
+"Hello from a.rb"
+"Just some shgjka"
 
