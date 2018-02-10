@@ -7,3 +7,6 @@ end
 def ticket.price
   53.00
 end
+
+ticket.date
+ticket.price
