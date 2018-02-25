@@ -9,7 +9,13 @@ RSpec.describe Multiples do
   it "returns 50 for multiples upto 50" do
     multiples = Multiples.new
     sum = multiples.sum_of_multiples(15)
-    expect(sum).to eq 50
+    expect(sum).to eq 45
     
+  end
+
+  it "returns 0 for -ve number" do
+    multiples = Multiples.new
+    sum = multiples.sum_of_multiples(-15)
+    expect(sum).to eq 0
   end
 end
