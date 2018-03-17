@@ -15,3 +15,13 @@ def call_proc
 end
 
 p call_proc
+
+def this_proc(my_proc)
+  count = 500
+  my_proc.call
+end
+
+count = 1
+my_proc = Proc.new { puts count }
+
+p this_proc(my_proc)
