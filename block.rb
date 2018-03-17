@@ -31,3 +31,10 @@ def explicit_block(&block)
 end
 
 explicit_block { puts "Explicit block called" }
+
+def hi
+  return "No block given" unless block_given?
+  yield
+end
+
+hi
