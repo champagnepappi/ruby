@@ -18,3 +18,16 @@ def one_two_three
 end
 
 one_two_three { |number| puts number*10 }
+
+def hey
+  puts "Helloo"
+end
+
+a = hey
+print a
+
+def explicit_block(&block)
+  block.call
+end
+
+explicit_block { puts "Explicit block called" }
