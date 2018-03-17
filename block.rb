@@ -10,3 +10,11 @@ def print_twice
 end
 
 print_twice { puts "Hello" }
+
+def one_two_three
+  yield 1,3,4
+  yield 2
+  yield 3
+end
+
+one_two_three { |number| puts number*10 }
