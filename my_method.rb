@@ -24,3 +24,13 @@ end
 run_block do
   puts "some more"
 end
+
+def take
+  yield "present"
+end
+
+take do |t|
+  puts "do/end got #{t}"
+end
+
+take {|t| puts "braces block got #{t}"}
