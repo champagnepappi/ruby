@@ -7,3 +7,12 @@ end
 my_method do
   puts "We're in the block!"
 end
+
+def give(&my_block)
+  my_block.call("2 turtles doves", "1 patrq")
+end
+
+give do |p1,p2|
+  puts "My method gave to me..."
+  puts p1,p2
+end
