@@ -3,3 +3,7 @@ def my_method(&my_block)
   my_block.call
   puts "We are back in the method"
 end
+
+my_method do
+  puts "We're in the block!"
+end
