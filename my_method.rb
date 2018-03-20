@@ -16,3 +16,11 @@ give do |p1,p2|
   puts "My method gave to me..."
   puts p1,p2
 end
+
+def run_block
+  yield
+end
+
+run_block do
+  puts "some more"
+end
