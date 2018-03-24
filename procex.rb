@@ -25,3 +25,6 @@ count = 1
 my_proc = Proc.new { puts count }
 
 p this_proc(my_proc)
+
+f = proc {|x|  print x**2}
+[2,3,1].each(&f)
