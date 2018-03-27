@@ -10,3 +10,7 @@ end
 puts OtherPlanet.circumference_of_circle(10)
 puts OtherPlanet::Pi
 puts Pi
+
+class Person
+  HOBBIES=["travelling", "swimming","dancing"]
+end
