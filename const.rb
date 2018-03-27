@@ -15,4 +15,6 @@ class Person
   HOBBIES=["travelling", "swimming","dancing"]
 end
 
-puts Person::HOBBIES
+h = Person::HOBBIES
+h << "watching movies"
+puts h
