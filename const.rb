@@ -14,3 +14,5 @@ puts Pi
 class Person
   HOBBIES=["travelling", "swimming","dancing"]
 end
+
+puts Person::HOBBIES
