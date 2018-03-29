@@ -7,3 +7,11 @@ def f.talk
 end
 
 f.talk
+
+class Ticket
+  attr_accessor :price
+end
+def Ticket.most_expensive(*tickets)
+  tickets.max_by(&price)
+end
+
