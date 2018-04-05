@@ -10,3 +10,4 @@ c = [3,5,43,1,2,4,47,67,10]
 p c.select {|x| x.even? }
 
 p c.map(&:to_s)
+p c.inject(:+)
