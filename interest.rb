@@ -10,3 +10,6 @@ class BankAccount
     puts "we are overriding method"
   end
 end
+
+acc = BankAccount.new
+acc.calculate_interest
