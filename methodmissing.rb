@@ -8,3 +8,5 @@ class Student
   end
 end
 
+s = Student.new
+s.grade_for_chem(56)
