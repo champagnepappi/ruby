@@ -7,4 +7,4 @@ end
 
 obj = C.new
 obj.x
-puts "That was a call to x by: #{c}"
+puts "That was a call to x by: #{obj}"
