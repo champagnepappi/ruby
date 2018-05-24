@@ -1,4 +1,5 @@
 class C
+  puts self
   def x
     puts "Class C, method x:"
     puts self
@@ -8,3 +9,11 @@ end
 obj = C.new
 obj.x
 puts "That was a call to x by: #{obj}"
+
+class Test
+  def Test.greet
+    puts self
+  end
+end
+
+Test.greet
