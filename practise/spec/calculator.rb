@@ -6,4 +6,8 @@ class Calculator
       x*y
     end
   end
+
+  def divide(n,m)
+    n/m
+  end
 end
