@@ -17,6 +17,11 @@ RSpec.describe Calculator do
     end
   end
   describe "division" do
+    context 'dividing two valid numbers' do
+      it 'returns 2 for 30 and 15' do
+        expect(@calc.divide(30,15)).to eq(2)
+      end
+    end
     
   end
-T COMMIT end
+end
