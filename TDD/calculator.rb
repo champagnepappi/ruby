@@ -10,4 +10,8 @@ class Calculator
   def substract(x,y)
     x-y
   end
+
+  def division(s,t)
+    s/t
+  end
 end
