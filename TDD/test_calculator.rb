@@ -11,4 +11,8 @@ class TestCalculator < Test::Unit::TestCase
   def test_substraction
     assert_equal(Calculator.new.substract(8,2),6)
   end
+
+  def test_division
+    assert_equal(Calculator.new.division(9,3),3)
+  end
 end
