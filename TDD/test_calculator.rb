@@ -15,4 +15,7 @@ class TestCalculator < Test::Unit::TestCase
   def test_division
     assert_equal(Calculator.new.division(9,3),3)
   end
+  def test_multiplication
+    assert_equal(Calculator.new.division(9,3),27)
+  end
 end
