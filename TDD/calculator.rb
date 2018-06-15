@@ -14,4 +14,8 @@ class Calculator
   def division(s,t)
     s/t
   end
+
+  def multiply(x,y)
+    x*y
+  end
 end
