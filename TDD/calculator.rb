@@ -12,7 +12,11 @@ class Calculator
   end
 
   def division(s,t)
-    s/t
+    if t==0
+      raise ZeroDivisionError, 'Cannot divide by zero'
+    else
+      s/t
+    end
   end
 
   def multiply(x,y)
