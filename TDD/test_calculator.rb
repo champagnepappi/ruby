@@ -19,4 +19,8 @@ class TestCalculator < Test::Unit::TestCase
   def test_multiplication
     assert_equal(Calculator.new.multiply(9,3),27)
   end
+
+  def test_modulus
+    assert_equal(Calculator.new.modulo(10,5), 0)
+  end
 end
