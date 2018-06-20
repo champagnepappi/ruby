@@ -8,3 +8,4 @@ def get_sum(elements)
 end
 
 get_sum([2,42,1,2341])
+elements.sum
