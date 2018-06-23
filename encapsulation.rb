@@ -27,3 +27,6 @@ a = Person.new("Kevin Santos")
 a.set_last_name("Genius")
 puts a.name
 
+def Person.age(n)
+  @age=n
+end
