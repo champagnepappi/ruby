@@ -10,4 +10,8 @@ class Person
   def print_name
     puts "Person called #{@name}"
   end
+
+  def print_age
+    puts "Person is #{age} years old"
+  end
 end
