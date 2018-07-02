@@ -12,3 +12,4 @@ def my_schedule(obj)
 end
 
 my_schedule("Monday")
+my_schedule("Tuesday")
