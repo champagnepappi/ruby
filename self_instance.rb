@@ -1,8 +1,8 @@
 class C
-  def show_var
-    @v = "I am an instance variable"
-    puts @v
-  end
   @v = "Another instance variable"
+  p @v
+  def show_var
+    p @v
+  end
 end
 C.new.show_var
