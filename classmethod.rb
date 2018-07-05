@@ -11,3 +11,7 @@ end
 
 Square.test_method
 Square.new.test_method
+def Square.output
+  "This is a class method"
+end
+Square.output
