@@ -13,9 +13,11 @@ class User
   include Account
   include Registration
   def register
+    print self
     puts "I am in the User class"
   end
 end
+
 
 a = User.new
 a.register
