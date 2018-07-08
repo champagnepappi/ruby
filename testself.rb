@@ -5,3 +5,4 @@ class C
   no_dot
 end
 C.no_dot
+print C.new.no_dot
