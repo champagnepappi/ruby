@@ -5,3 +5,5 @@ class C
   end
 end
 
+c = C.new
+c.examine_global
