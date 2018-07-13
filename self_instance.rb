@@ -6,3 +6,4 @@ class C
   end
 end
 C.new.show_var
+p self
