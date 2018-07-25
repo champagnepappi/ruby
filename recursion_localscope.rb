@@ -2,7 +2,7 @@ class Person
   def my_name(name, recurse=false)
     n = name
     print "Here is the inspect-string for 'self': "
-    p self
+    p self.object_id
     puts "And here's n:"
     puts n
 
@@ -10,7 +10,7 @@ class Person
       puts "Calling myself (recursion) ..."
       my_name("kevin")
       puts "back after recursion; here's n: "
-      puts n
+      puts n.object_id
     end
   end
 end
