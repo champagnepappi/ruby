@@ -4,3 +4,6 @@ end
 def my_name
   @name
 end
+
+my_name="santos"
+my_name
