@@ -1,7 +1,8 @@
 $gvar = "I'm a global!"
 class C
+  $my_loc
   def examine_global
-    puts $gvar
+    puts $gvar $my_loc
   end
 end
 
