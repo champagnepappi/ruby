@@ -1,2 +1,7 @@
-arr=[1231,4,5,234234,2342,4,6,7]
-arr.digits
+num=12313
+my_num=num.digits
+
+l2=num.to_s.length
+l1=num.to_s.length
+
+puts l2-l1
