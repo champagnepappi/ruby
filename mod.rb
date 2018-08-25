@@ -6,6 +6,7 @@ end
 
 class Podii
     include Meetup
+    prepend Meetup
 end
 
 a = Podii.new
