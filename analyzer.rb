@@ -14,6 +14,10 @@ def mod(first_num, second_num)
   first_num % second_num
 end
 
+def square(x,y)
+  x**y
+end
+
 
 puts "What do you want to do? 1) Multiply 2) Divide 3)Subtract 4)Remainder"
 prompt = gets.chomp.to_i
