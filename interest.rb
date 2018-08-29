@@ -5,6 +5,7 @@ module InterestingBearing
 end
 class BankAccount
   include InterestBearing
+  prepend InterestBearing
   def calculate_interest
     puts "We are in bank account class"
     puts "we are overriding method"
