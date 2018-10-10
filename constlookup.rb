@@ -8,4 +8,5 @@ module M
     end
   end
 end
+puts M::C::D::N::X
 
