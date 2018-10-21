@@ -1,5 +1,4 @@
-class ParentClass
-  ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+module Parent
  def method1
    puts "Hello from method1 in parent class"
  end 
@@ -7,6 +6,9 @@ class ParentClass
  def method2
    puts "Hello from method2 in parent class"
  end
+end
+class ParentClass
+  include Parent
 end
 
 class ChildClass < ParentClass
