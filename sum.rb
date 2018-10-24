@@ -9,3 +9,5 @@ end
 
 get_sum([2,42,1,2341])
 elements.sum
+
+puts "kevin".sum
