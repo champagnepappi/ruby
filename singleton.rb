@@ -1,5 +1,8 @@
 class Person
 end
+def Person.name(name)
+  puts "my name is #{name}"
+end
 
 f = Person.new
 def f.talk
