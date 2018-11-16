@@ -13,3 +13,4 @@ end
 
 my_schedule("Monday")
 my_schedule("Tuesday")
+my_schedule("just some other day")
