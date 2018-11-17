@@ -6,3 +6,4 @@ module A
 end
 
 A::C.new
+A.ancestors
