@@ -11,3 +11,4 @@ end
 
 obj = D.new
 obj.report
+C.ancestors
