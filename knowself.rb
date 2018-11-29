@@ -17,3 +17,7 @@ class Test
 end
 
 Test.greet
+
+def Test.name
+  puts "My name is anon"
+end
