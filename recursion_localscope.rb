@@ -18,3 +18,4 @@ p = Person.new
 p.my_name("santos", true)
 q=Person.new
 q.my_name("kev")
+q.my_name("glo")
