@@ -14,4 +14,8 @@ class Person
   def print_age
     puts "Person is #{age} years old"
   end
+
+  def print_gender
+    puts "Person gender is #{gender}"
+  end
 end
