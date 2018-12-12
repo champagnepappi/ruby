@@ -1,4 +1,5 @@
 ticket = Object.new
+event = Object.new
 
 def ticket.date
   "14/2/2018"
