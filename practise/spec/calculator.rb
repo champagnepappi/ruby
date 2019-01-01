@@ -10,4 +10,8 @@ class Calculator
   def divide(n,m)
     n/m
   end
+
+  def modulo(x,y)
+    x%y
+  end
 end
