@@ -6,6 +6,8 @@ def my_schedule(obj)
     puts "I rap"
   when "Wednesday"
     puts "I go for hike"
+  when "Thursday"
+    puts "Go swimming"
   else
     puts "Enter correct day"
   end
