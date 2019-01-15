@@ -23,4 +23,8 @@ class TestCalculator < Test::Unit::TestCase
   def test_modulus
     assert_equal(Calculator.new.modulo(10,5), 0)
   end
+
+  def test_power
+    assert_equal(Calculator.new.power(2,3), 8 )
+  end
 end

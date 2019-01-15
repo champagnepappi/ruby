@@ -26,4 +26,8 @@ class Calculator
   def modulo(x,y)
     x%y
   end
+
+  def power(a,b)
+    a**b
+  end
 end
