@@ -13,3 +13,9 @@ else
   puts "Try again, num was #{random_num}"
 end
 
+
+def my_name(name="")
+  puts "hey" if name == ""
+end
+
+my_name("")
