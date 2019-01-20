@@ -1,5 +1,5 @@
 require 'csv'
-CSV.foreach("users.csv") do |row|
+CSV.foreach("users.csv", headers: true) do |row|
   puts row[2]
 end
 
