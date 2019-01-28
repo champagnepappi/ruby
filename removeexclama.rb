@@ -1,0 +1,2 @@
+str = "WHATT!!!!!"
+str.delete("!")
