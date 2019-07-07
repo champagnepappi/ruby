@@ -14,3 +14,4 @@ end
 
 p c.map(&:to_s)
 p c.inject(:+)
+p c.map(&:chr)
