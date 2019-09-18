@@ -1,6 +1,6 @@
 class Calc
-  def add(a,b)
-    a+b
+  def add(*args)
+    args.inject(:+)
   end
   
   def multiply(a,b)
