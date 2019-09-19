@@ -11,3 +11,9 @@ get_sum([2,42,1,2341])
 elements.sum
 
 puts "kevin".sum
+
+def add_elements(*args)
+  args.inject(:+)
+end
+
+add_elements(3,5,6,4)
