@@ -7,8 +7,8 @@ class Calculator
     end
   end
 
-  def substract(x,y)
-    x-y
+  def substract(*args)
+    args.reduce(:+)
   end
 
   def division(s,t)
