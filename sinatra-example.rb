@@ -14,17 +14,16 @@ get '/contact' do
 end
 
 __END__
-@@index
+@@layout
 %html
   %body
-    %h1 Home
+    = yield
+
+@@index
+%h1 Home
 
 @@about
-%html
-  %body
-    %p About Page
+%p About Page
 
 @@contact
-%html
-  %body
-    %h1 Contact
+%h1 Contact
